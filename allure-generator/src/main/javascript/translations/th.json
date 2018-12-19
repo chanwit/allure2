@@ -18,7 +18,7 @@
       "name": "ภาพรวม"
     },
     "categories": {
-      "name": "ประเภท"
+      "name": "หมวดหมู่"
     },
     "suites": {
       "name": "ชุดทดสอบ"
@@ -44,7 +44,7 @@
       "name": "แนวโน้ม"
     },
     "categoriesTrend": {
-      "name": "แนวโน้มประเภท"
+      "name": "แนวโน้มหมวดหมู่"
     },
     "durationTrend": {
       "name": "แนวโน้มการใช้เวลา"
@@ -70,7 +70,7 @@
       "name": "ชุดทดสอบ"
     },
     "categories": {
-      "name": "ประเภท"
+      "name": "หมวดหมู่"
     }
   },
   "chart": {
@@ -97,7 +97,7 @@
       "name": "ภาพรวม"
     },
     "categories": {
-      "name": "ประเภท"
+      "name": "หมวดหมู่"
     },
     "description": {
       "name": "คำอธิบาย"
