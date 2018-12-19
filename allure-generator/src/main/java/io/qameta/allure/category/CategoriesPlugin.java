@@ -140,11 +140,18 @@ public class CategoriesPlugin extends CompositeAggregator implements Reader {
         final boolean matchesMessage = isNull(category.getMessageRegex())
                 || nonNull(result.getStatusMessage())
                 && matches(result.getStatusMessage(), category.getMessageRegex());
+        final boolean matchesName = isNull(category.getNameRegex())
+                || nonNull(result.getName())
+                && lookingAt(result.getName(), category.getNameRegex());
         final boolean matchesTrace = isNull(category.getTraceRegex())
                 || nonNull(result.getStatusTrace())
                 && matches(result.getStatusTrace(), category.getTraceRegex());
         final boolean matchesFlaky = result.isFlaky() == category.isFlaky();
-        return matchesStatus && matchesMessage && matchesTrace && matchesFlaky;
+        return matchesStatus && matchesMessage && matchesName && matchesTrace && matchesFlaky;
+    }
+
+    private static boolean lookingAt(final String message, final String pattern) {
+        return Pattern.compile(pattern, Pattern.DOTALL).matcher(message).lookingAt();
     }
 
     private static boolean matches(final String message, final String pattern) {

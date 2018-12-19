@@ -1,17 +1,17 @@
 {
   "status": {
-    "failed": "Failed",
-    "broken": "Broken",
-    "passed": "Passed",
-    "skipped": "Skipped",
-    "unknown": "Unknown",
-    "flaky": "Test is flaky"
+    "failed": "ไม่ผ่าน",
+    "broken": "พัง",
+    "passed": "ผ่าน",
+    "skipped": "ข้าม",
+    "unknown": "ไม่ทราบ",
+    "flaky": "การทดสอบไม่ดี"
   },
   "sorter": {
-    "order": "order",
-    "name": "name",
-    "duration": "duration",
-    "status": "status"
+    "order": "ลำดับ",
+    "name": "ชื่อ",
+    "duration": "ใช้เวลา",
+    "status": "สถานะ"
   },
   "tab": {
     "overview": {
@@ -21,7 +21,7 @@
       "name": "ประเภท"
     },
     "suites": {
-      "name": "ชุด"
+      "name": "ชุดทดสอบ"
     },
     "graph": {
       "name": "กราฟ"
@@ -37,55 +37,55 @@
       "aggregatedName": "Aggregated report",
       "launches": "launch",
       "launches_plural": "launches",
-      "testResults": "test case",
-      "testResults_plural": "test cases"
+      "testResults": "กรณีทดสอบ",
+      "testResults_plural": "กรณีทดสอบ"
     },
     "trend": {
-      "name": "Trend"
+      "name": "แนวโน้ม"
     },
     "categoriesTrend": {
-      "name": "Categories trend"
+      "name": "แนวโน้มประเภท"
     },
     "durationTrend": {
-      "name": "Duration trend"
+      "name": "แนวโน้มการใช้เวลา"
     },
     "retryTrend": {
-      "name": "Retries trend"
+      "name": "แนวโน้มการทดสอบซ้ำ"
     },
     "executors": {
-      "name": "Executors",
-      "unknown": "Unknown",
-      "empty": "There is no information about tests executors"
+      "name": "ตัวปฏิบัติการทดสอบ",
+      "unknown": "ไม่ทราบ",
+      "empty": "ไม่มีข้อมูลเกี่ยวกับตัวปฏิบัติการทดสอบ"
     },
     "launches": {
       "name": "Launches",
       "empty": "There is no information about launches"
     },
     "environment": {
-      "name": "Environment",
-      "empty": "There are no environment variables",
-      "showAll": "Show all"
+      "name": "ข้อมูลแวดล้อม",
+      "empty": "ไม่มีตัวแปรแวดล้อม",
+      "showAll": "แสดงทั้งหมด"
     },
     "suites": {
-      "name": "Suites"
+      "name": "ชุดทดสอบ"
     },
     "categories": {
-      "name": "Categories"
+      "name": "ประเภท"
     }
   },
   "chart": {
     "duration": {
-      "name": "Duration",
-      "empty": "There is nothing to show"
+      "name": "ช่วงเวลา",
+      "empty": "ไม่มีข้อมูลแสดง"
     },
     "trend": {
-      "empty": "There is nothing to show"
+      "empty": "ไม่มีข้อมูลแสดง"
     },
     "severity": {
-      "name": "Severity"
+      "name": "ระดับความรุนแรง"
     },
     "status": {
-      "name": "Status"
+      "name": "สถานะ"
     }
   },
   "testResult": {
@@ -94,16 +94,16 @@
       "trace": "Show trace"
     },
     "overview": {
-      "name": "Overview"
+      "name": "ภาพรวม"
     },
     "categories": {
-      "name": "Categories"
+      "name": "ประเภท"
     },
     "description": {
-      "name": "Description"
+      "name": "คำอธิบาย"
     },
     "duration": {
-      "name": "Duration"
+      "name": "ช่วงเวลา"
     },
     "history": {
       "name": "History",
@@ -123,34 +123,34 @@
       "name": "Links"
     },
     "severity": {
-      "name": "Severity"
+      "name": "ระดับความรุนแรง"
     },
     "execution": {
-      "name": "Execution",
-      "setup": "Set up",
-      "teardown": "Tear down",
-      "body": "Test body"
+      "name": "การปฏิบัติ",
+      "setup": "เซ็ตอัพ",
+      "teardown": "เทียร์ดาวน์",
+      "body": "ตัวการทดสอบ"
     },
     "stats": {
       "count": {
-        "steps": "{{count}} sub-step",
-        "steps_plural": "{{count}} sub-steps",
-        "attachments": "{{count}} attachment",
-        "attachments_plural": "{{count}} attachments",
-        "parameters": "{{count}} parameter",
-        "parameters_plural": "{{count}} parameters"
+        "steps": "{{count}} สเต็ปย่อย",
+        "steps_plural": "{{count}} สเต็ปย่อย",
+        "attachments": "{{count}} ไฟล์แนบ",
+        "attachments_plural": "{{count}} ไฟล์แนบ",
+        "parameters": "{{count}} พารามิเตอร์",
+        "parameters_plural": "{{count}} พารามิเตอร์"
       }
     }
   },
   "controls": {
-    "collapse": "Collapse",
-    "expand": "Expand",
-    "fullscreen": "Full screen",
-    "language": "Change language",
-    "clipboard": "Copy to clipboard",
-    "clipboardSuccess": "Successfully copied",
-    "clipboardError": "Can not copy value to clipboard. Seems like this feature is not supported for your browser",
-    "backto": "Back to"
+    "collapse": "ยุบ",
+    "expand": "ขยาย",
+    "fullscreen": "เต็มจอ",
+    "language": "เปลี่ยนภาษา",
+    "clipboard": "คัดลอกไปคลิปบอร์ด",
+    "clipboardSuccess": "คัดลอกสำเร็จ",
+    "clipboardError": "คัดลอกไปคลิปบอร์ดไม่ได้ เหมือนกับว่าเบราเซอร์ไม่สนับสนุนฟีเจอร์นี้",
+    "backto": "กลับไปยัง"
   },
   "errors": {
     "missedAttachment": "Attachment not found",
@@ -158,38 +158,39 @@
   },
   "component": {
     "tree": {
-      "filter": "Filter by status",
+      "filter": "กรองด้วยสถานะ",
       "groups": "Toggle groups info",
       "download": "Download CSV",
-      "empty": "There are no items",
+      "empty": "ไม่มีรายการ",
+      "unknown": "-----",
       "time": {
         "total" : {
-          "name": "Total",
-          "tooltip": "Duration from first test started to last test finished"
+          "name": "ทั้งหมด",
+          "tooltip": "เวลาที่ใช้ตั้งแต่เริ่มตัวทดสอบแรกจนถึงทดสอบตัวทดสอบสุดท้ายเสร็จ"
         },
         "max": {
-          "name": "Max",
-          "tooltip": "Longest test duration"
+          "name": "มากสุด",
+          "tooltip": "เวลาทดสอบที่นานที่สุด"
         },
         "sum": {
-          "name": "Sum",
-          "tooltip": "Sum of all tests durations"
+          "name": "รวม",
+          "tooltip": "รวมเวลาทดสอบทั้งหมด"
         }
       },
       "filtered": {
-        "total": "{{count}} test result",
-        "total_plural": "{{count}} test results",
-        "shown": "{{count}} shown"
+        "total": "{{count}} ผลการทดสอบ",
+        "total_plural": "{{count}} ผลการทดสอบ",
+        "shown": "แสดง {{count}}"
       }
     },
     "widgetStatus": {
-      "showAll": "Show all",
-      "total": "{{count}} item total",
-      "total_plural": "{{count}} items total"
+      "showAll": "แสดงทั้งหมด",
+      "total": "รวม {{count}} รายการ",
+      "total_plural": "รวม {{count}} รายการ"
     },
     "statusToggle": {
-      "showCases": "Show test results with {{status}} status",
-      "hideCases": "Hide test results with {{status}} status"
+      "showCases": "แสดงการทดสอบที่มีสถานะ {{status}}",
+      "hideCases": "ซ่อนการทดสอบที่มีสถานะ {{status}}"
     }
   }
 }

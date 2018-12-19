@@ -3,6 +3,7 @@ import settings from './settings';
 
 export const LANGUAGES = [
     {id: 'en', title: 'English'},
+    {id: 'th', title: 'ไทย'},
     {id: 'ru', title: 'Русский'},
     {id: 'zh', title: '中文'},
     {id: 'de', title: 'Deutsch'},

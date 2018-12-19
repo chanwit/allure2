@@ -162,6 +162,7 @@
       "groups": "Toggle groups info",
       "download": "Download CSV",
       "empty": "There are no items",
+      "unknown": "-----",
       "time": {
         "total" : {
           "name": "Total",

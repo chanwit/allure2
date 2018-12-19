@@ -26,11 +26,12 @@ import './plugins/widget-retry-trend';
 import './plugins/widget-categories-trend';
 
 import './plugins/widget-summary';
-import './plugins/widget-history-trend';
 import './plugins/widget-suites';
+// import './plugins/widget-history-trend';
+import './plugins/widget-executor';
 import './plugins/widget-categories';
 import './plugins/widget-environment';
-import './plugins/widget-executor';
+
 
 import './plugins/testresult-description';
 import './plugins/testresult-tags';
