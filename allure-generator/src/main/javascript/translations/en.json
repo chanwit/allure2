@@ -129,7 +129,8 @@
       "name": "Execution",
       "setup": "Set up",
       "teardown": "Tear down",
-      "body": "Test body"
+      "body": "Test body",
+      "empty": "No information about test execution is available."
     },
     "stats": {
       "count": {
