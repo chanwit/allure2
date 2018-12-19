@@ -2,7 +2,7 @@
 <html dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Allure Report</title>
+    <title>Suranaree Kubernetes Engine</title>
     <link rel="favicon" href="favicon.ico?v=2">
     <link rel="stylesheet" href="styles.css">
     <#list plugins as plugin>

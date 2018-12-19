@@ -29,7 +29,7 @@ public class SummaryPlugin extends CommonJsonAggregator {
         final SummaryData data = new SummaryData()
                 .setStatistic(new Statistic())
                 .setTime(new GroupTime())
-                .setReportName("Allure Report");
+                .setReportName("รายงานผลชุดทดสอบ SKCK");
         launches.stream()
                 .flatMap(launch -> launch.getResults().stream())
                 .forEach(result -> {
