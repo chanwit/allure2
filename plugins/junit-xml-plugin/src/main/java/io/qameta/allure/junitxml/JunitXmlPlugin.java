@@ -140,6 +140,7 @@ public class JunitXmlPlugin implements Reader {
                 .setName(name)
                 .setHostname(hostname)
                 .setTimestamp(getUnix(timestamp));
+
         testSuiteElement.get(TEST_CASE_ELEMENT_NAME)
                 .forEach(element -> parseTestCase(info, element,
                         resultsDirectory, parsedFile, context, visitor));
@@ -153,6 +154,8 @@ public class JunitXmlPlugin implements Reader {
                 .orElse(null);
     }
 
+    private int count = 0;
+
     private void parseTestCase(final TestSuiteInfo info, final XmlElement testCaseElement, final Path resultsDirectory,
                                final Path parsedFile, final RandomUidContext context, final ResultsVisitor visitor) {
         final String className = testCaseElement.getAttribute(CLASS_NAME_ATTRIBUTE_NAME);
@@ -161,6 +164,9 @@ public class JunitXmlPlugin implements Reader {
         result.setStatus(status);
         result.setFlaky(isFlaky(testCaseElement));
         setStatusDetails(result, testCaseElement);
+
+        count++;
+        LOGGER.debug(">> Parsing testcase #{}: {}", count, testCaseElement.getAttribute("name"));
 
         getLogFile(resultsDirectory, className)
                 .filter(Files::exists)
