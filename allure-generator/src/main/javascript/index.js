@@ -13,8 +13,8 @@ import './pluginApi';
 
 import './plugins/default';
 
-import './plugins/tab-category';
 import './plugins/tab-suites';
+import './plugins/tab-category';
 import './plugins/tab-graph';
 import './plugins/tab-timeline';
 
@@ -36,8 +36,8 @@ import './plugins/widget-environment';
 import './plugins/testresult-description';
 import './plugins/testresult-tags';
 import './plugins/testresult-category';
-import './plugins/testresult-history';
-import './plugins/testresult-retries';
+// import './plugins/testresult-history';
+// import './plugins/testresult-retries';
 import './plugins/testresult-owner';
 import './plugins/testresult-severity';
 import './plugins/testresult-duration';
