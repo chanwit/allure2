@@ -1,5 +1,6 @@
 import TimelineLayout from './TimelineLayout';
 
+/*
 allure.api.addTab('timeline', {
     title: 'tab.timeline.name',
     icon: 'fa fa-clock-o',
@@ -9,3 +10,4 @@ allure.api.addTab('timeline', {
         url:'data/timeline.json'
     })
 });
+*/
