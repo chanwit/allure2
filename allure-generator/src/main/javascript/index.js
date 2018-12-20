@@ -16,7 +16,7 @@ import './plugins/default';
 import './plugins/tab-category';
 import './plugins/tab-suites';
 import './plugins/tab-graph';
-import './plugins/tab-timeline';
+// import './plugins/tab-timeline';
 
 import './plugins/widget-status';
 import './plugins/widget-severity';
